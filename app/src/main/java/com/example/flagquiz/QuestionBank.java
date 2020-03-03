@@ -2,18 +2,18 @@ package com.example.flagquiz;
 
 public class QuestionBank {
 
-    public String questions [] = {
-            "US",
-            "Japan",
-            "Australia",
-            "Australia",
-            "Australia",
-            "Australia",
-            "Australia",
-            "Australia",
-            "Australia",
-            "Australia",
-            "Australia",
+    public int questions [] = {
+            R.drawable.us,
+            R.drawable.peru,
+            R.drawable.sweden,
+            R.drawable.canada,
+            R.drawable.japan,
+            R.drawable.egypt,
+            R.drawable.germany,
+            R.drawable.iceland,
+            R.drawable.bulgaria,
+            R.drawable.india,
+//
     };
 
     private String choices [][] = {
@@ -30,11 +30,11 @@ public class QuestionBank {
             {"Egypt", "India", "Canada"},
     };
 
-    private String correctAnswers [] = {"US", "Peru", "Sweden", "Canada", "Japan", "Egypt", "Germany", "Iceland", "Bulgaria", "India", "India"};
+    private String correctAnswers [] = {"US", "Peru", "Sweden", "Canada", "Japan", "Egypt", "Germany", "Iceland", "Bulgaria", "India"};
 
 // need to somehow get these to be flags instead of strings
-    public String getQuestion(int a) {
-            String questionA = questions[a];
+    public int getQuestion(int a) {
+            int questionA = questions[a];
             return questionA;
     }
 
