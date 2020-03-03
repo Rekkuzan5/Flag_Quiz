@@ -13,7 +13,6 @@ public class QuestionBank {
             R.drawable.iceland,
             R.drawable.bulgaria,
             R.drawable.india,
-//
     };
 
     private String choices [][] = {
